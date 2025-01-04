@@ -1,0 +1,165 @@
+/* Zelf gedaan maar de animation is via w3schools*/
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #f6f7f9, #00509e, #003366);
+    background-size: 300% 300%;
+    animation: gradientAnimation 2s ease-out;
+    color: #333;
+}
+
+/* Smooth overgang animatie youtube en w3schools */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Header stijl */
+header {
+    background: linear-gradient(to right, #003366, #00509e);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Chat gpt*/
+}
+header {
+    font-family: "Times New Roman", Times, serif;
+  }
+.header-content h1 {
+    font-size: 3rem;
+    margin: 0;
+
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Voorkant tekst laat zien waar je bent Welcome stuk */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Product sectie */
+.products-preview {
+    display: flex;
+    justify-content: center; /* Chat gpt*/
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: linear-gradient(to bottom, #ffffff, #dfe9f3); /* Chat gpt*/
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* youtube */
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    color: #003366;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product p {
+    color: #00509e;
+    font-weight: bold;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Navigatie menu */
+.nav-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-menu a.infok {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* Stijl voor de pagina's zonder de kleuren overgang animaties */
+body.geen-animatie {
+    animation: none;
+    background-position: 50% 50%;
+    background: linear-gradient(120deg, #f6f7f9, #00509e, #003366);
+    background-size: 300% 300%;
+}
+/* Waar op de pagine het item komt te staan */
+.plek {
+    place-items: center;
+}
+
+.product-section {
+    text-align: center;
+    padding: 40px 20px;
+    place-items: center;
+    
+}
+
+.product-section h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Stijl voor de pagina's zonder de kleuren overgang animaties */
+body.geen-animatie1 {
+    animation: none;
+    background-position: 50% 50%;
+    background: linear-gradient(120deg, #f6f7f9, #00509e, #003366);
+    background-size: 300% 300%;
+}
