@@ -65,8 +65,8 @@ header {
     display: flex;
     justify-content: center; /* Chat gpt*/
     gap: 20px;
-    padding: 20px;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .product {
@@ -97,13 +97,13 @@ header {
 }
 
 .product:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Chat gpt */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 
-/* Navigatie menu */
+/* Navigatie menu (Hier heb ik alles zelf gedaan) */
 .nav-menu {
     position: absolute;
     top: 20px;
@@ -131,7 +131,7 @@ header {
 
 
 
-/* Stijl voor de pagina's zonder de kleuren overgang animaties */
+/* Stijl voor de pagina's zonder de kleuren overgang animaties (gekopieerd van vorige codes)*/
 body.geen-animatie {
     animation: none;
     background-position: 50% 50%;
@@ -162,4 +162,30 @@ body.geen-animatie1 {
     background-position: 50% 50%;
     background: linear-gradient(120deg, #f6f7f9, #00509e, #003366);
     background-size: 300% 300%;
+}
+/* Alles hier heb ik zelf gedaan alleen de namen niet voor de class ik kon echt niks meer bedenken dus liet ik Ai me helpen met bedenken van class namen */
+.team {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member {
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #ffffff, #dfe9f3);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.team-member h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: #333;
 }
